@@ -5,16 +5,15 @@ let today = moment().format("MMM Do, YYYY");
 $("#currentDay").append(today);
 
 //Variable for current hour
-let currentHour = moment().format("H");
+let currentHour = moment().format("h");
+let eventTime = document.getElementsByClassName("hour");
 
-const eventTime = currentHour;
+//Targeting the class "textarea" and creating a function for each element of that id
+//to change the color of the textarea depedning on the time
+$(".textarea").each(function() {
+     eventTime = $(this).attr("id");
 
-
-
-//Function to change the color of the text box depending on what time it is
-$("textarea").each(function() {
-  
-   // let eventTime = $(this).attr("textarea")
+    
     //If the current hour is the less than the hour for the event on the calender the background is changed to the class "past"
         if(currentHour > eventTime) {
             $(this).addClass("past");
