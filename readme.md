@@ -1,4 +1,5 @@
 # Work Schedule Planner
+This assignment was to use Javascript and jQuery to create a work scheudule where the user can type in their tasks for the day and save it to the local storage. The planner is also color coded to follow the time of the day so the user can easily identify past, present and future events.
 
 
 
