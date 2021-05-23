@@ -7,7 +7,7 @@ This assignment was to use Javascript and jQuery to create a work scheudule wher
 https://lhaykus.github.io/Work-Day-Scheduler/
 
 
-!["work-schedule](./assets/workschedule.gif)
+!["work-schedule"](./assets/scheudle.gif)
 
 
 
